@@ -1,7 +1,12 @@
+import logo from "../logo.png";
+
 const TopNav = () => {
   return (
     <>
-      <p>NavBar Working!</p>
+      <div style={{display:"flex", color:"white", marginLeft:"2rem"}}>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>NavBar Working!</p>
+      </div>
     </>
   );
 };
